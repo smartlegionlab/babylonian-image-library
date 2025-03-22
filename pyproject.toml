@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "babylonian_image_library"
+version = "0.1.0"
+description = "A Python library that generates unique images based on a given seed or address. It also provides functionality to generate random addresses, which can be used to create random images."
+authors = [
+    { name = "A.A. Suvorov", email = "smartlegiondev@gmail.com" }
+]
+license = "BSD-3-Clause"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pillow==11.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/smartlegionlab/babylonian_image_library"
+
+[tool.setuptools.dynamic]
+version = { attr = "babylonian_image_library.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["babylonian_image_library"]
