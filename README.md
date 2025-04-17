@@ -2,6 +2,7 @@
 
 ***
 
+[![PyPI Downloads](https://static.pepy.tech/badge/babylonian-image-library)](https://pepy.tech/projects/babylonian-image-library)
 ![GitHub top language](https://img.shields.io/github/languages/top/smartlegionlab/babylonian_image_library)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/smartlegionlab/babylonian_image_library)](https://github.com/smartlegionlab/babylonian_image_library/)
 [![GitHub](https://img.shields.io/github/license/smartlegionlab/babylonian_image_library)](https://github.com/smartlegionlab/babylonian_image_library/blob/master/LICENSE)
