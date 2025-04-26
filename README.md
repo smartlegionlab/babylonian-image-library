@@ -1,4 +1,4 @@
-# Babylonian Image Library <sup>v0.1.1</sup>
+# Babylonian Image Library <sup>v0.1.2</sup>
 
 ***
 
@@ -39,10 +39,8 @@ To use the Babylon Image Library, ensure you have the following dependencies ins
 - Python 3.x
 - `Pillow` (PIL fork) for image manipulation.
 
-You can install the required dependencies using pip:
-
 ```bash
-pip install pillow
+pip install babylonian-image-library
 ```
 
 ## Usage

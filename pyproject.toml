@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "babylonian-image-library"
-version = "0.1.1"
+version = "0.1.2"
 description = "A Python library that generates unique images based on a given seed or address. It also provides functionality to generate random addresses, which can be used to create random images."
 authors = [
     { name = "A.A. Suvorov", email = "smartlegiondev@gmail.com" }
