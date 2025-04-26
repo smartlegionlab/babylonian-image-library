@@ -1,17 +1,17 @@
-# Babylonian Image Library <sup>v0.1.0</sup>
+# Babylonian Image Library <sup>v0.1.1</sup>
 
 ***
 
 [![PyPI Downloads](https://static.pepy.tech/badge/babylonian-image-library)](https://pepy.tech/projects/babylonian-image-library)
-![GitHub top language](https://img.shields.io/github/languages/top/smartlegionlab/babylonian_image_library)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/smartlegionlab/babylonian_image_library)](https://github.com/smartlegionlab/babylonian_image_library/)
-[![GitHub](https://img.shields.io/github/license/smartlegionlab/babylonian_image_library)](https://github.com/smartlegionlab/babylonian_image_library/blob/master/LICENSE)
-[![GitHub Repo stars](https://img.shields.io/github/stars/smartlegionlab/babylonian_image_library?style=social)](https://github.com/smartlegionlab/babylonian_image_library/)
-[![GitHub watchers](https://img.shields.io/github/watchers/smartlegionlab/babylonian_image_library?style=social)](https://github.com/smartlegionlab/babylonian_image_library/)
-[![GitHub forks](https://img.shields.io/github/forks/smartlegionlab/babylonian_image_library?style=social)](https://github.com/smartlegionlab/babylonian_image_library/)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/babylonian_image_library?label=pypi%20downloads)](https://pypi.org/project/babylonian_image_library/)
-[![PyPI](https://img.shields.io/pypi/v/babylonian_image_library)](https://pypi.org/project/babylonian_image_library)
-[![PyPI - Format](https://img.shields.io/pypi/format/babylonian_image_library)](https://pypi.org/project/babylonian_image_library)
+![GitHub top language](https://img.shields.io/github/languages/top/smartlegionlab/babylonian-image-library)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/smartlegionlab/babylonian-image-library)](https://github.com/smartlegionlab/babylonian-image-library/)
+[![GitHub](https://img.shields.io/github/license/smartlegionlab/babylonian-image-library)](https://github.com/smartlegionlab/babylonian-image-library/blob/master/LICENSE)
+[![GitHub Repo stars](https://img.shields.io/github/stars/smartlegionlab/babylonian-image-library?style=social)](https://github.com/smartlegionlab/babylonian-image-library/)
+[![GitHub watchers](https://img.shields.io/github/watchers/smartlegionlab/babylonian-image-library?style=social)](https://github.com/smartlegionlab/babylonian-image-library/)
+[![GitHub forks](https://img.shields.io/github/forks/smartlegionlab/babylonian-image-library?style=social)](https://github.com/smartlegionlab/babylonian-image-library/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/babylonian-image-library?label=pypi%20downloads)](https://pypi.org/project/babylonian-image-library/)
+[![PyPI](https://img.shields.io/pypi/v/babylonian-image-library)](https://pypi.org/project/babylonian-image-library)
+[![PyPI - Format](https://img.shields.io/pypi/format/babylonian-image-library)](https://pypi.org/project/babylonian-image-library)
 
 ***
 
@@ -127,11 +127,6 @@ Random address: Room42:Wall3:Shelf7:Volume5:Book23:Page456
 The image has been saved to 'random_image.png'
 
 ```
-
-***
-
-![logo](https://github.com/smartlegionlab/babylonian_image_library/raw/master/data/images/Room26Wall5Shelf8Volume5Book15Page329.png)
-
 
 ***
 

@@ -9,7 +9,7 @@
 """BabylonianImageLibrary is a Python library that generates unique images based on a given seed or address."""
 from .babylonian_image_library import BabylonianImageLibrary
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 __author__ = 'A.A. Suvorov'
 __all__ = [
     "BabylonianImageLibrary"
