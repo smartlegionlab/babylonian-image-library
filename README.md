@@ -1,4 +1,4 @@
-# Babylonian Image Library <sup>v0.1.3</sup>
+# Babylonian Image Library <sup>v0.1.4</sup>
 
 ***
 
