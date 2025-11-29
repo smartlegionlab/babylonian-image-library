@@ -6,11 +6,21 @@
 # --------------------------------------------------------
 # https://github.com/smartlegionlab/
 # --------------------------------------------------------
-"""BabylonianImageLibrary is a Python library that generates unique images based on a given seed or address."""
-from .babylonian_image_library import BabylonianImageLibrary
+from .library.config import ImageLibraryConfig
+from .library.coordinates import ImageCoordinates
+from .library.core import SmartBabylonImageLibrary, BabylonianImageLibrary
+from .library.generator import BabylonianImageGenerator
+"""A deterministic infinite image library generator inspired by Borges' 'The Library of Babel'. 
+Generate unique, deterministic images based on coordinate systems without storing image data."""
 
-__version__ = '0.1.4'
-__author__ = 'A.A. Suvorov'
+__version__ = "1.0.0"
+__author__ = "Alexander Suvorov"
+__email__ = "smartlegiondev@gmail.com"
+
 __all__ = [
+    "SmartBabylonImageLibrary",
+    "ImageLibraryConfig",
+    "ImageCoordinates",
+    "BabylonianImageGenerator",
     "BabylonianImageLibrary"
 ]

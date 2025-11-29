@@ -4,24 +4,30 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "babylonian-image-library"
-version = "0.1.4"
-description = "A Python library that generates unique images based on a given seed or address. It also provides functionality to generate random addresses, which can be used to create random images."
+version = "1.0.0"
+description = "A deterministic infinite image library generator inspired by Borges' 'The Library of Babel'. Generate unique, deterministic images based on coordinate systems without storing image data."
 authors = [
-    { name = "A.A. Suvorov", email = "smartlegiondev@gmail.com" }
+    { name = "Alexander Suvorov", email = "smartlegiondev@gmail.com" }
 ]
 license = "BSD-3-Clause"
 readme = "README.md"
-requires-python = ">=3.6"
+requires-python = ">=3.7"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 dependencies = [
-    "pillow==11.1.0",
+    "pillow>=11.1.0",
 ]
 
 [project.urls]
 Homepage = "https://github.com/smartlegionlab/babylonian-image-library"
+Documentation = "https://github.com/smartlegionlab/babylonian-image-library"
+Repository = "https://github.com/smartlegionlab/babylonian-image-library"
 
 [tool.setuptools.packages.find]
 where = ["."]
