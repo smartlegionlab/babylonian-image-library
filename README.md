@@ -1,49 +1,57 @@
-# Babylonian Image Library <sup>v1.0.0</sup>
-
-***
+# Babylonian Image Library <sup>v1.0.1</sup>
 
 A deterministic infinite image library generator inspired by Borges' 'The Library of Babel'. Generate unique, deterministic images based on coordinate systems without storing image data.
 
 ---
 
-[![PyPI Downloads](https://static.pepy.tech/badge/babylonian-image-library)](https://pepy.tech/projects/babylonian-image-library)
-![GitHub top language](https://img.shields.io/github/languages/top/smartlegionlab/babylonian-image-library)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/smartlegionlab/babylonian-image-library)](https://github.com/smartlegionlab/babylonian-image-library/)
+![GitHub top language](https://img.shields.io/github/languages/top/smartlegionlab/babylonian-image-library)
 [![GitHub](https://img.shields.io/github/license/smartlegionlab/babylonian-image-library)](https://github.com/smartlegionlab/babylonian-image-library/blob/master/LICENSE)
 [![GitHub Repo stars](https://img.shields.io/github/stars/smartlegionlab/babylonian-image-library?style=social)](https://github.com/smartlegionlab/babylonian-image-library/)
 [![GitHub watchers](https://img.shields.io/github/watchers/smartlegionlab/babylonian-image-library?style=social)](https://github.com/smartlegionlab/babylonian-image-library/)
 [![GitHub forks](https://img.shields.io/github/forks/smartlegionlab/babylonian-image-library?style=social)](https://github.com/smartlegionlab/babylonian-image-library/)
+[![PyPI Downloads](https://static.pepy.tech/badge/babylonian-image-library)](https://pepy.tech/projects/babylonian-image-library)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/babylonian-image-library?label=pypi%20downloads)](https://pypi.org/project/babylonian-image-library/)
 [![PyPI](https://img.shields.io/pypi/v/babylonian-image-library)](https://pypi.org/project/babylonian-image-library)
 [![PyPI - Format](https://img.shields.io/pypi/format/babylonian-image-library)](https://pypi.org/project/babylonian-image-library)
 
-***
+---
 
-## 🚧 Project Status: Research & Development
+## ⚠️ Disclaimer
+
+**By using this software, you agree to the full disclaimer terms.**
+
+**Summary:** Software provided "AS IS" without warranty. You assume all risks.
+
+**Full legal disclaimer:** See [DISCLAIMER.md](https://github.com/smartlegionlab/babylonian-image-library/blob/master/DISCLAIMER.md)
+
+---
+
+## Project Status: Research & Development
 
 **IMPORTANT DISCLAIMER**: This project is currently in active research and development phase. It is provided as-is for academic and experimental purposes only. No guarantees of stability, security, or fitness for any particular purpose are provided. Users assume all risks associated with usage.
 
 ---
 
-## 🚀 Version Information
+## Version Information
 
-### Current Version: 1.0.0 (New Modular Architecture)
+### Current Version: 1.0.1 (New Modular Architecture)
 
 **Complete rewrite with breaking changes** - this version introduces a completely new architecture inspired by the Smart Babylon Library:
 
-- **🌌 Multi-Universe Support** - Isolated image libraries with different configurations
-- **📐 6D Coordinate System** - Floor, room, cabinet, shelf, book, page coordinates
-- **🎯 Deterministic Generation** - Same coordinates always produce the same image
-- **🏠 Home Directory Storage** - Organized storage in `~/babylonian_image_library/`
-- **🖼️ Multiple Image Types** - Standard and abstract image generation
-- **⚙️ Configurable Settings** - Custom dimensions, formats, and quality
-- **📦 Modular Architecture** - Clean separation with config, coordinates, core, and generator modules
+- **Multi-Universe Support** - Isolated image libraries with different configurations
+- **6D Coordinate System** - Floor, room, cabinet, shelf, book, page coordinates
+- **Deterministic Generation** - Same coordinates always produce the same image
+- **Home Directory Storage** - Organized storage in `~/babylonian_image_library/`
+- **Multiple Image Types** - Standard and abstract image generation
+- **Configurable Settings** - Custom dimensions, formats, and quality
+- **Modular Architecture** - Clean separation with config, coordinates, core, and generator modules
 
 ### Legacy Version: 0.1.4 (Deprecated)
 
-**⚠️ Version `0.1.4` and earlier are no longer supported.** The previous monolithic architecture has been completely replaced by the new modular system.
+**Version `0.1.4` and earlier are no longer supported.** The previous monolithic architecture has been completely replaced by the new modular system.
 
-**Key breaking changes from 0.1.4 to 1.0.0:**
+**Key breaking changes from 0.1.4 to 1.0.1:**
 - **New import paths**: `from babylonian_image_library import SmartBabylonImageLibrary`
 - **Different coordinate system**: 6D coordinates instead of address strings
 - **Modular structure**: Separate config, coordinates, core, and generator modules
@@ -53,13 +61,14 @@ A deterministic infinite image library generator inspired by Borges' 'The Librar
 
 ---
 
-## 📚 Related Research Publications
+## Related Research Publications
 
 This library implements concepts from our published research:
 
 - **[Pointer-Based Security Paradigm](https://doi.org/10.5281/zenodo.17204738)** - Architectural shift from data protection to data non-existence
 - **[Local Data Regeneration Paradigm](https://doi.org/10.5281/zenodo.17264327)** - Ontological shift from data transmission to synchronous state discovery  
 - **[Deterministic Game Engine](https://doi.org/10.5281/zenodo.17383447)** - Practical implementation validating the theoretical paradigms
+- **[Position-Candidate-Hypothesis (PCH) Paradigm](https://doi.org/10.5281/zenodo.17614888)** - A New Research Direction for NP-Complete Problems
 
 ## Features
 
@@ -135,7 +144,7 @@ config = ImageLibraryConfig(
 library = SmartBabylonImageLibrary(config)
 ```
 
-## Migration Guide from 0.1.4 to 1.0.0
+## Migration Guide from 0.1.4 to 1.0.1
 
 ### Before (0.1.4):
 ```python
@@ -146,7 +155,7 @@ address = library.generate_random_address()  # "Room42:Wall3:Shelf7:Volume5:Book
 library.save_image(address, "image.png")
 ```
 
-### After (1.0.0):
+### After (1.0.1):
 ```python
 from babylonian_image_library import SmartBabylonImageLibrary
 
@@ -281,16 +290,9 @@ image2 = library2.get_image(1, 1, 1, 1, 1, 1)
 # Images will be identical
 ```
 
-## ⚠️ Important Legal Notice
-
-**NO WARRANTY**: This software is provided for academic and research purposes only. The authors make no warranties, express or implied, regarding the software's functionality, security, or fitness for any purpose. Users assume all responsibility and risk for use.
-
 **RESEARCH STATUS**: This implementation is part of ongoing research into deterministic systems and pointer-based architectures. It should not be used in production environments or for any critical applications.
 
 ## License
 
 [BSD 3-Clause License](https://github.com/smartlegionlab/babylonian-image-library/blob/master/LICENSE)
-
-## GitHub
-
-https://github.com/smartlegionlab/babylonian-image-library
+Copyright (©) 2026, [Alexander Suvorov](https://github.com/smartlegionlab/)

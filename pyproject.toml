@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "babylonian-image-library"
-version = "1.0.0"
+version = "1.0.1"
 description = "A deterministic infinite image library generator inspired by Borges' 'The Library of Babel'. Generate unique, deterministic images based on coordinate systems without storing image data."
 authors = [
     { name = "Alexander Suvorov", email = "smartlegiondev@gmail.com" }
